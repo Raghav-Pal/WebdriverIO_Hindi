@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Demo Tests" timestamp="2022-12-29T13:19:06" time="3.303" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Demo Tests"/>
+      <property name="capabilities" value="chrome.108_0_5359_125.windows"/>
+      <property name="file" value="file:///E:/Projects/WebdriverIO_Eng/WebdriverIO_Project_1/test/specs/test1.spec.js"/>
+    </properties>
+    <testcase classname="chrome.108_0_5359_125.windows.Demo_Tests" name="My First Test" time="3.3">
+      <system-out><![CDATA[
+COMMAND: POST /session/5dcb52749ae8e52e58e6d6ea6dbd4fc7/element - {"using":"css selector","value":"[name=\"q\"]"}
+COMMAND: POST /session/5dcb52749ae8e52e58e6d6ea6dbd4fc7/url - {"url":"https://google.com/"}
+RESULT: {"using":"css selector","value":"[name=\"q\"]"}
+COMMAND: POST /session/5dcb52749ae8e52e58e6d6ea6dbd4fc7/elements - {"using":"css selector","value":"[name=\"q\"]"}
+RESULT: {"url":"https://google.com/"}
+RESULT: {"using":"css selector","value":"[name=\"q\"]"}
+COMMAND: POST /session/5dcb52749ae8e52e58e6d6ea6dbd4fc7/element - {"using":"css selector","value":"[name=\"q\"]"}
+RESULT: {"using":"css selector","value":"[name=\"q\"]"}
+COMMAND: POST /session/5dcb52749ae8e52e58e6d6ea6dbd4fc7/element/0060920f-d54b-43c0-ab12-a1cab96e31c8/clear - {}
+RESULT: {}
+COMMAND: POST /session/5dcb52749ae8e52e58e6d6ea6dbd4fc7/element/0060920f-d54b-43c0-ab12-a1cab96e31c8/value - {"text":"WebdriverIO"}
+RESULT: {"text":"WebdriverIO"}
+COMMAND: POST /session/5dcb52749ae8e52e58e6d6ea6dbd4fc7/actions - {"actions":[{"id":"action1","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"pause","duration":10},{"type":"keyUp","value":""}]}]}
+COMMAND: DELETE /session/5dcb52749ae8e52e58e6d6ea6dbd4fc7 - {}
+RESULT: {"actions":[{"id":"action1","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"pause","duration":10},{"type":"keyUp","value":""}]}]}
+COMMAND: DELETE /session/5dcb52749ae8e52e58e6d6ea6dbd4fc7/actions - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

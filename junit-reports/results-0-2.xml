@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="My First Recorded Test" timestamp="2022-12-29T13:19:06" time="9.194" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="My First Recorded Test"/>
+      <property name="capabilities" value="chrome.108_0_5359_125.windows"/>
+      <property name="file" value="file:///E:/Projects/WebdriverIO_Eng/WebdriverIO_Project_1/test/specs/My%20First%20Recorded%20Test.js"/>
+    </properties>
+    <testcase classname="chrome.108_0_5359_125.windows.My_First_Recorded_Test" name="tests My First Recorded Test" time="9.193">
+      <failure/>
+      <error message="The selector &quot;text/Logout&quot; used with strategy &quot;css selector&quot; is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/d7f4ba6a312877c23b055715b970dc8e/window/rect - {"x":null,"y":null,"width":764,"height":689}
+RESULT: {"x":null,"y":null,"width":764,"height":689}
+COMMAND: POST /session/d7f4ba6a312877c23b055715b970dc8e/url - {"url":"https://the-internet.herokuapp.com/login"}
+RESULT: {"url":"https://the-internet.herokuapp.com/login"}
+COMMAND: GET /session/d7f4ba6a312877c23b055715b970dc8e/url - {}
+RESULT: {}
+COMMAND: POST /session/d7f4ba6a312877c23b055715b970dc8e/element - {"using":"xpath","value":"//*[@id=\"content\"]/div/h4/em[1]"}
+RESULT: {"using":"xpath","value":"//*[@id=\"content\"]/div/h4/em[1]"}
+COMMAND: POST /session/d7f4ba6a312877c23b055715b970dc8e/actions - {"actions":[{"id":"action1","type":"pointer","parameters":{"pointerType":"mouse"},"actions":[{"type":"pointerMove","button":0,"width":0,"height":0,"pressure":0,"tangentialPressure":0,"tiltX":0,"tiltY":0,"twist":0,"altitudeAngle":0,"_":"5 more keys: [\"azimuthAngle\",\"x\",\"y\",\"duration\",\"origin\"]"},{"type":"pointerDown","button":0,"width":0,"height":0,"pressure":0,"tangentialPressure":0,"tiltX":0,"tiltY":0,"twist":0,"altitudeAngle":0,"_":"1 more keys: [\"azimuthAngle\"]"},{"type":"pointerUp","button":0},{"type":"pause","duration":10},{"type":"pointerDown","button":0,"width":0,"height":0,"pressure":0,"tangentialPressure":0,"tiltX":0,"tiltY":0,"twist":0,"altitudeAngle":0,"_":"1 more keys: [\"azimuthAngle\"]"},{"type":"pointerUp","button":0}]}]}
+RESULT: {"actions":[{"id":"action1","type":"pointer","parameters":{"pointerType":"mouse"},"actions":[{"type":"pointerMove","button":0,"width":0,"height":0,"pressure":0,"tangentialPressure":0,"tiltX":0,"tiltY":0,"twist":0,"altitudeAngle":0,"_":"5 more keys: [\"azimuthAngle\",\"x\",\"y\",\"duration\",\"origin\"]"},{"type":"pointerDown","button":0,"width":0,"height":0,"pressure":0,"tangentialPressure":0,"tiltX":0,"tiltY":0,"twist":0,"altitudeAngle":0,"_":"1 more keys: [\"azimuthAngle\"]"},{"type":"pointerUp","button":0},{"type":"pause","duration":10},{"type":"pointerDown","button":0,"width":0,"height":0,"pressure":0,"tangentialPressure":0,"tiltX":0,"tiltY":0,"twist":0,"altitudeAngle":0,"_":"1 more keys: [\"azimuthAngle\"]"},{"type":"pointerUp","button":0}]}]}
+COMMAND: DELETE /session/d7f4ba6a312877c23b055715b970dc8e/actions - {}
+RESULT: {}
+COMMAND: POST /session/d7f4ba6a312877c23b055715b970dc8e/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""}]}]}
+RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""}]}]}
+COMMAND: POST /session/d7f4ba6a312877c23b055715b970dc8e/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyUp","value":""}]}]}
+RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyUp","value":""}]}]}
+COMMAND: POST /session/d7f4ba6a312877c23b055715b970dc8e/element - {"using":"css selector","value":"#username"}
+RESULT: {"using":"css selector","value":"#username"}
+COMMAND: POST /session/d7f4ba6a312877c23b055715b970dc8e/element/350eec32-9665-4fdf-ad81-69756e1c60d6/click - {}
+RESULT: {}
+COMMAND: POST /session/d7f4ba6a312877c23b055715b970dc8e/element - {"using":"css selector","value":"#username"}
+RESULT: {"using":"css selector","value":"#username"}
+COMMAND: POST /session/d7f4ba6a312877c23b055715b970dc8e/element/350eec32-9665-4fdf-ad81-69756e1c60d6/clear - {}
+RESULT: {}
+COMMAND: POST /session/d7f4ba6a312877c23b055715b970dc8e/element/350eec32-9665-4fdf-ad81-69756e1c60d6/value - {"text":"tomsmith"}
+RESULT: {"text":"tomsmith"}
+COMMAND: POST /session/d7f4ba6a312877c23b055715b970dc8e/element - {"using":"xpath","value":"//*[@id=\"content\"]/div/h4/em[2]"}
+RESULT: {"using":"xpath","value":"//*[@id=\"content\"]/div/h4/em[2]"}
+COMMAND: POST /session/d7f4ba6a312877c23b055715b970dc8e/element/db0b394f-f887-4792-b918-3ae253bb8c10/click - {}
+RESULT: {}
+COMMAND: POST /session/d7f4ba6a312877c23b055715b970dc8e/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""}]}]}
+RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""}]}]}
+COMMAND: POST /session/d7f4ba6a312877c23b055715b970dc8e/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyUp","value":""}]}]}
+RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyUp","value":""}]}]}
+COMMAND: POST /session/d7f4ba6a312877c23b055715b970dc8e/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/d7f4ba6a312877c23b055715b970dc8e/element/7cbbe51f-beed-4ee8-9be6-ba5f1815e4bb/click - {}
+RESULT: {}
+COMMAND: POST /session/d7f4ba6a312877c23b055715b970dc8e/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/d7f4ba6a312877c23b055715b970dc8e/element/7cbbe51f-beed-4ee8-9be6-ba5f1815e4bb/clear - {}
+RESULT: {}
+COMMAND: POST /session/d7f4ba6a312877c23b055715b970dc8e/element/7cbbe51f-beed-4ee8-9be6-ba5f1815e4bb/value - {"text":"SuperSecretPassword!"}
+RESULT: {"text":"SuperSecretPassword!"}
+COMMAND: POST /session/d7f4ba6a312877c23b055715b970dc8e/element - {"using":"xpath","value":"//*[@id=\"login\"]/button/i"}
+RESULT: {"using":"xpath","value":"//*[@id=\"login\"]/button/i"}
+COMMAND: POST /session/d7f4ba6a312877c23b055715b970dc8e/element/8fbf829d-7187-4395-9e5f-1cb65bbb334f/click - {}
+RESULT: {}
+COMMAND: GET /session/d7f4ba6a312877c23b055715b970dc8e/url - {}
+RESULT: {}
+COMMAND: POST /session/d7f4ba6a312877c23b055715b970dc8e/element - {"using":"css selector","value":"text/Logout"}
+COMMAND: GET /session/d7f4ba6a312877c23b055715b970dc8e/screenshot - {}
+RESULT: {}
+COMMAND: DELETE /session/d7f4ba6a312877c23b055715b970dc8e - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+invalid selector: The selector "text/Logout" used with strategy "css selector" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Context.<anonymous> (E:\Projects\WebdriverIO_Eng\WebdriverIO_Project_1\test\specs\My First Recorded Test.js:34:5)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>
