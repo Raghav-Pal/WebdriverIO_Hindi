@@ -1,4 +1,4 @@
-# WebdriverIO_Hindi
+# WebdriverIO Hindi
 
 Based on WebdriverIO Tutorials by Raghav Pal 
 
