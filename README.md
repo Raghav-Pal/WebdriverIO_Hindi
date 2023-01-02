@@ -108,6 +108,7 @@ Step 6 - Can import | export steps
 
 Step 7 - Can export for different tools using their chrome plugins - https://goo.gle/recorder-extension  e.g. 
 Cypress Chrome Recorder  |  Nightwatch Chrome Recorder  |  Webdriver IO Chrome Recorder
+_________________________________
 
 #### Never Stop Learning
 ***Raghav Pal***
